@@ -1,0 +1,12 @@
+
+services:
+  - type: web
+    name: movie-recommender-api
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python recommend_api.py"
+    envVars:
+      - key: TMDB_KEY
+        fromEnvVar: TMDB_KEY
+      - key: MONGO_URI
+        fromEnvVar: MONGO_URI

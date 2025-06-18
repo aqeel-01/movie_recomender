@@ -1,0 +1,41 @@
+
+#  Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#  Virtual environment folders
+env/
+venv/
+ENV/
+.venv/
+
+#  Environment variable files (do not upload secrets)
+.env
+
+#  OS/system-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+#  Log files
+*.log
+
+# Model files (do not upload to GitHub; use Google Drive or other storage)
+*.pkl
+*.h5
+*.ckpt
+
+# IDE/project-specific folders (optional)
+.vscode/
+.idea/
+
+# Render build output (optional if Render generates files)
+render-build/
+
+# Misc (optional)
+*.bak
+*.swp
